@@ -1,0 +1,46 @@
+#Section1 {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: brown;
+    color: rgb(149, 77, 51);
+    background-color: rgb(226, 204, 196);
+    margin: 2px 0px 15px 10px;
+    width: 30%;
+}
+.myButton {
+    border: solid;
+    border-color: rgb(99, 16, 33);
+    border-radius: 4px;
+    
+}
+#Section2 {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(103, 35, 35);
+    color: rgb(83, 28, 8);
+    background-color: rgb(226, 206, 189);
+    margin: 2px 0px 15px 10px;
+    width: 45%;
+
+}
+.myButton2 {
+    border: solid;
+    border-color: rgb(54, 25, 4);
+    border-radius: 4px;
+}
+
+#Section3 {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(104, 53, 53);
+    color: rgb(106, 53, 34);
+    background-color: rgb(213, 193, 179);
+    margin: 2px 0px 15px 10px;
+    width: 45%;
+}
+
+.myButton3 {
+    border: solid;
+    border-color: rgb(102, 46, 5);
+    border-radius: 4px;
+}

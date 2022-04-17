@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Web Page</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+
+<body>
+    <script src="index.js"></script>
+    <form name = "MyForm" onsubmit="return false;">
+    <fieldset id = "Section1"><legend>Welcome to My Web Page</legend>
+        <button class="myButton" onclick="enableNewUser()">Click for New User</button>
+        <button class="myButton" onclick="enableExistingUser()">Click for Existing User</button>
+    </fieldset>
+
+    <fieldset id="Section2">
+        
+         <legend>New User</legend>
+            
+            <label for="UserName">UserName: </label>
+            <input type="text" name="UserName" id="UserName1"></input>
+
+            <label for="City">City:</label>
+            <input type="text" name= "City" id="City"></input>
+            <br>
+            <label for="Password">Password:</label>
+            <input type="text" name="Password" id="Password1"></input>
+
+            <label for="State">State(abbr.):</label>
+            <input type="text" name="State" id="State"></input>
+            <button class="myButton2" id="Button2" type="submit" onclick="welcome()">Login</button>
+            
+    </fieldset>
+
+    <fieldset id="Section3">
+        <legend>Existing User</legend>
+
+        <label for="UserName">UserName:</label>
+        <input type="text" name="UserName" id="UserName2"></input>
+        <label for="Password">Password:</label>
+        <input type="text" name="Password" id="Password2"></input>
+        <button class="myButton3" id="Button3" type="submit" onclick="welcomeBack()">Login</button>
+    </fieldset>
+    </form>
+</body>
+</html>
