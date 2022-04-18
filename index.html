@@ -11,8 +11,8 @@
     <script src="index.js"></script>
     <form name = "MyForm" onsubmit="return false;">
     <fieldset id = "Section1"><legend>Welcome to My Web Page</legend>
-        <button class="myButton" onclick="enableNewUser()">Click for New User</button>
-        <button class="myButton" onclick="enableExistingUser()">Click for Existing User</button>
+        <button class="myButton" onclick="enableNewUser(); disableAfterWelcome()">Click for New User</button>
+        <button class="myButton" onclick="enableExistingUser(); disableAfterWelcome()">Click for Existing User</button>
     </fieldset>
 
     <fieldset id="Section2">

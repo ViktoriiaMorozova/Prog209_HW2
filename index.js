@@ -7,6 +7,9 @@ function disableAll() {
     document.getElementById("Section3").disabled = true;
 }
 
+function disableAfterWelcome() {
+    document.getElementById("Section1").disabled = true;
+}
 function enableNewUser() {
     document.getElementById("Section2").disabled = false;
 }
